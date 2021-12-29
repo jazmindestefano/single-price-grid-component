@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "..\\tareasCSS"
+		},
+		{
+			"path": "..\\JavaScript"
+		},
+		{
+			"path": "..\\IMAGENES"
+		},
+		{
+			"path": "..\\tareasHTML"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "JavaScript"
+	}
+}
