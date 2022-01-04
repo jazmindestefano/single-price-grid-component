@@ -1,0 +1,126 @@
+*, 
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Century Gothic;
+}
+body{
+    background-color: #F0F0F0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 70vw;
+    height: 70vh;
+    margin: 5%;
+}
+.presentation{
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+    background-color: white;
+}
+.presentation h1{
+    padding-top: 6%;
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-bottom: 4%;
+    font-size: 130%;
+    color: #4AC0B2;
+}
+.presentation h2, .presentation p{
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-bottom: 4%;
+    font-size: 100%;
+    color: #c4d66a;
+}
+.presentation p{
+    font-size: 90%;
+    padding-bottom: 6%;
+    color: rgb(161, 160, 160);
+}
+.susbripcion-informacion{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    min-width: 250px;
+}
+.price-of-subscription{
+    width: 50%;
+    padding: 3%;
+    background-color: #2BB3B1;
+    border-radius: 0 0 0 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.price-of-subscription h1{
+    color: rgb(241, 239, 239);
+}
+.numero{
+    color: white;
+    font-size: 150%;
+}
+.per-month{ 
+    font-size: 75%;
+}
+.price-of-subscription p{
+    color: rgb(219, 217, 217);
+}
+.price-of-subscription button{
+    width: 90%;
+    height: 50px;
+    margin-left: 5%;
+    border-radius: 6px 6px 6px 6px;
+    border: #BFDF32;
+    background-color: #BFDF32;
+    color: white;
+    font-size: 95%;
+    cursor: pointer;
+}
+.why-us{
+    width: 50%;
+    padding: 3%;
+    background-color: #4ABEBD;
+    border-radius: 0 0 8px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.why-us h1{
+    color: rgb(241, 239, 239);
+    padding-bottom: 7%;
+}
+.why-us p{
+    color: rgb(206, 203, 203);
+}
+@media (max-width: 500px){
+    .susbripcion-informacion{
+        flex-direction: column;
+    }
+    .price-of-subscription{
+        border-radius: 0 0 0 0;
+        width: 100%;
+        padding-bottom: 8%;
+    }
+    .why-us{
+        border-radius: 0 0 8px 8px;
+        width: 100%;
+    }
+    .presentation{
+        width: 100%;
+        padding-top: 5%;
+    }
+    .presentation h1, .presentation h2, .presentation p{
+        padding-left: 9%;
+    }
+    .presentation p{
+        padding-bottom: 8%;
+    }
+}
+
